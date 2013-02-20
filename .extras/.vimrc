@@ -1,6 +1,9 @@
 " use bash for vim configs
 set shell=/bin/bash
 
+" colors
+colorscheme pacific
+
 " store undo files in a different dir
 set undodir^=~/.vim/.tmp/
 
