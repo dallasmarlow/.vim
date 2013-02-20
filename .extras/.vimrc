@@ -14,3 +14,6 @@ filetype plugin indent on
 
 " control p
 set runtimepath^=~/.vim/bundle/ctrlp.vim
+
+" nerd tree toggle
+map <C-n> :NERDTreeToggle<CR>
