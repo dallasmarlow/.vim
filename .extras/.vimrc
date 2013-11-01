@@ -5,7 +5,9 @@ set shell=/bin/bash
 colorscheme pacific
 
 " store undo files in a different dir
-set undodir^=~/.vim/.tmp/
+if version >= 703
+  set undodir^=~/.vim/.tmp/
+endif
 
 " set the terminal color to 256
 set t_Co=256
