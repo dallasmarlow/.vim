@@ -17,13 +17,5 @@ execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
-" control p
-set runtimepath^=~/.vim/bundle/ctrlp.vim
-
-" nerd tree toggle
-map <C-n> :NERDTreeToggle<CR>
-
 " indention
-set tabstop=2
-set shiftwidth=2
 set expandtab
